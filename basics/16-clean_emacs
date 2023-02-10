@@ -1,0 +1,2 @@
+#!/bin/bash
+for file in *; do [[ "${file: -1}" == "~" ]] && rm "$file"; done
