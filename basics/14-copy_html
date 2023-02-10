@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -R tmp/.html ..
+cp -t $(dirname "$(pwd)") $(find "$(pwd)" -type f -name "*.html")
