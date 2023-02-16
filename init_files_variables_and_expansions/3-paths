@@ -1,2 +1,2 @@
 #!/bin/bash
-tr ':' '\n' $PATH | uniq -c $PATH
+$PATH | tr ':' '\n' | wc -l
