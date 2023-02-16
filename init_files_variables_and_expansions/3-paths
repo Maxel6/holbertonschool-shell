@@ -1,2 +1,2 @@
 #!/bin/bash
-tr ':' '\n' $PATH | count -n $PATH
+tr ':' '\n' $PATH | count -n '\n' $PATH
